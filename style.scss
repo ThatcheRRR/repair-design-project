@@ -1,0 +1,476 @@
+@import 'sass/_typography.scss';
+@import 'sass/_buttons.scss';
+
+$bgcolor: #131313;
+$bgcolor-des: #fff;
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    width: 1440px;
+    margin: 0 auto;
+}
+nav {
+    height: 83px;
+    display: flex;
+    margin-left: 82px;
+    margin-right: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+header {
+    background-color: $bgcolor;
+    .logo {
+        float: left;
+    }
+    .nav__menu {
+        height: 100%;
+        display: flex;
+        float: right;
+        align-items: center;
+        &_link {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        &-button_button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
+.upper-block {
+    height: 707px;
+    background: linear-gradient(rgba(0, 0, 0, 0.65)), url("/assets/main-bg.png");
+    &__instagram {
+        margin-right: 60px;
+        height: 100%;
+        float: left;
+        background: $bgcolor;
+        &_link {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            &_text {
+                transform: rotate(90deg);
+            }
+        }
+    }
+    &__description {
+        height: 100%;
+        width: 520px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        &_repair {
+            margin-top: 194px;
+        }
+        &_buttons {
+            display: flex;
+            margin-bottom: 208px;
+            &_calculate, &_submit {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+}
+.scroll-down {
+    display: flex;
+    position: relative;
+    bottom: 50px;
+    width: 247px;
+    height: 97px;
+    background-color: $bgcolor;
+    &__button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        svg {
+            margin-left: 12px;
+        }
+    }
+}
+.projects {
+    &-container {
+        display: flex;
+        flex-wrap: wrap;
+        height: 1074px;
+        background: $bgcolor;
+    }
+    display: flex;
+    flex-wrap: nowrap;
+    &__completed {
+        &_arrows {
+            width: 260px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            &_left, &_right {
+                display: inline-block;
+            }
+            &_left {
+                margin-right: 29px;
+            }
+            &_right {
+                margin-left: 29px;
+            }
+            &_circle {
+                display: inline-block;
+                height: 9.57px;
+                width: 9.57px;
+            }
+        }
+        margin-top: 176.36px;
+        margin-left: 101.45px;
+        margin-right: 70px;
+        &_text {
+            margin-top: 34px;
+        }
+        &_header {
+            margin-top: 42px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            &_head {
+                width: 172px;
+                margin-bottom: 34px;
+                &_descr {
+                    margin-top: 8px;
+                }
+            }
+        }
+        &_par {
+            display: flex;
+            flex-wrap: nowrap;
+        }
+    }
+    &__works {
+        margin-top: 107px;
+        &_cities {
+            width: 650px;
+            display: flex;
+            justify-content: space-between;
+        }
+        &_designs {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 52.68px;
+            &_slider {
+                display: block;
+                position: relative;
+                top: 210px;
+                left: 90px;
+                background: #E3B873;
+                height: 54.72px;
+                width: 54.72px;
+                border-radius: 50%;
+                box-shadow: 0px 0px 15px rgba(227, 184, 115, 0.5);
+                &_link {
+                    display: block;
+                    height: 100%;
+                    width: 100%;
+                }
+                svg {
+                    position: relative;
+                    top: 17px;
+                    left: 22px;
+                }
+            }
+        }
+    }
+    &__online {
+        margin-top: 90px;
+        position: relative;
+        display: block;
+        left: 311px;
+        &_container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 817px;
+        }
+        &_text {
+            display: flex;
+            flex-wrap: wrap;
+            width: 195px;
+            justify-content: center;
+            &_img {
+                margin-top: 12px;
+                width: 115px;
+                align-items: center;
+                justify-content: space-between;
+                display: flex;
+                &_line {
+                    background: #E3B873;
+                    border-radius: 30px;
+                    height: 1.54px;
+                    width: 32px;
+                }
+            }
+        }
+        &_control {
+            height: 434px;
+            margin-top: 31px;
+            text-align: center;
+            display: block;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+        }
+    }
+}
+.repairs {
+    margin-top: 275px;
+    margin-bottom: 250px;
+    background: $bgcolor-des;
+    &__descr {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        &_line {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            &_horizontal {
+                width: 55px;
+                height: 1.54px;
+                background: #E3B873;
+                border-radius: 30px;
+            }
+        }
+        &_text {
+            width: 680px;
+            text-align: center;
+        }
+        &_inputs {
+            margin-top: 95px;
+            display: flex;
+            width: 770px;
+            flex-wrap: wrap;
+            justify-content: center;
+            &_name, &_phone {
+                width: 231px;
+                display: flex;
+                flex-wrap: wrap;
+            }
+            &_name {
+                margin-right: 58px;
+            }
+            &_phone {
+                margin-right: 49px;
+            }
+            &_label {
+                width: 231px;
+            }
+            input:not([type="checkbox"]) {
+                width: 231px;
+                border: 0px;
+                border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+            }
+            &_button {
+                &_submit {
+                    width: 200px;
+                    height: 51px;
+                    border: none;
+                }
+            }
+            &_agree {
+                margin-top: 37px;
+                label {
+                    margin-left: 8px;
+                }
+            }
+        }
+        &_text {
+            margin-top: 34.46px;
+        }
+    }
+    &__types {
+        height: 725px;
+        margin-top: 148px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        &_container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        &_text {
+            display: flex;
+            flex-wrap: wrap;
+            width: 195px;
+            justify-content: center;
+            &_img {
+                margin-top: 12px;
+                width: 115px;
+                align-items: center;
+                justify-content: space-between;
+                display: flex;
+                &_line {
+                    background: #E3B873;
+                    border-radius: 30px;
+                    height: 1.54px;
+                    width: 32px;
+                }
+            }
+        }
+        &_designs {
+            width: 100%;
+            margin-top: 31px;
+            display: flex;
+            margin-left: 102px;
+            margin-right: 100px;
+            justify-content: space-between;
+            &_name {
+                &_img_head {
+                    display: flex;
+                    flex-wrap: wrap;
+                    position: relative;
+                    width: 330px;
+                    display: flex;
+                    background: #fff;
+                    left: 31px;
+                    bottom: 127px;
+                    &_container {
+                        margin: 25px 68px 49px 34px;
+                    }
+                }
+                &_price {
+                    width: 228px;
+                    height: 54px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: relative;
+                    bottom: 28px;
+                    background: #E3B873;
+                    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3)
+                }
+            }
+        }
+    }
+    &__request {
+        margin-top: 160px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        &_stages {
+            height: 636px;
+            width: 636px;
+            border-radius: 100%;
+            border: 1.5px solid #E3B873;
+        }
+        &_form {
+            width: 509px;
+            height: 506px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            &_blank {
+                width: 509px;
+                height: 506px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                background: #131313;
+                &_head {
+                    margin-top: 28px;
+                    width: 270px;
+                }
+                &_inputs {
+                    width: 406px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    &_button {
+                        &_submit {
+                            width: 213px;
+                            height: 51px;
+                            border: none;
+                        }
+                    }
+                    &_name, &_phone, &_email {
+                        width: 406px;
+                        display: flex;
+                        flex-wrap: wrap;
+                        &_agree {
+                            width: 406px;
+                        }
+                    }
+                    &_phone, &_email {
+                        margin-top: 48px;
+                    }
+                    &_label {
+                        width: 406px;
+                    }
+                    &_label-agree {
+                        width: 406px;
+                        margin-left: 8.62px;
+                    }
+                    input[type = "text"], input[type = "text"], input[type = "email"] {
+                        width: 406px;
+                        border: none;
+                        border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+                        background: #131313;
+                    }
+                    &_button {
+                        margin: 39px 0px 27px 195px;
+                    }
+                    &_agree {
+                        margin-top: 16px;
+                    }
+                }
+            }
+            &_save {
+                margin-top: 38.44px;
+                width: 100%;
+                display: flex;
+                flex-wrap: nowrap;
+                align-items: center;
+                &_circle {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-right: 25px;
+                    width: 72px;
+                    height: 72px;
+                    border-radius: 100%;
+                    background: #E3B873;
+                }
+                &_text {
+                    width: 220px;
+                }
+            }
+        }
+    }
+}
+.styles {
+    height: 864px;
+    background: linear-gradient(120.96deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.9) 100%), url("assets/stylesbg.png");
+    &__container {
+        &_head {
+            margin-top: 137px;
+        }
+        margin-top: 137.47px;
+        margin-left: 99px;
+        &_list {
+            margin-top: 47px;
+            width: 299px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+}
+footer nav {
+    height: 133px;
+}
