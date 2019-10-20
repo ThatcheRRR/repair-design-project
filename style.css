@@ -1460,39 +1460,6 @@ header .nav__menu-button_button {
   margin-top: 24px;
 }
 
-.design-project__types_text {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  width: 195px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.design-project__types_text_img {
-  margin-top: 12px;
-  width: 115px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.design-project__types_text_img_line {
-  background: #E3B873;
-  border-radius: 30px;
-  height: 1.54px;
-  width: 32px;
-}
-
 .design-project__types_designs {
   height: 700px;
   position: relative;
@@ -1506,6 +1473,10 @@ header .nav__menu-button_button {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.design-project__types_designs_name_img {
+  max-height: 700px;
 }
 
 .design-project__types_designs_name_img_head {
@@ -1553,6 +1524,39 @@ header .nav__menu-button_button {
   background: #E3B873;
   -webkit-box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
           box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+}
+
+.design-project__types_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 195px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.design-project__types_text_img {
+  margin-top: 12px;
+  width: 115px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.design-project__types_text_img_line {
+  background: #E3B873;
+  border-radius: 30px;
+  height: 1.54px;
+  width: 32px;
 }
 
 .steps {

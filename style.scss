@@ -537,6 +537,53 @@ header {
                 margin-top: 24px;
             }
         }
+        &_designs {
+            height: 700px;
+            position: relative;
+            width: 100%;
+            margin-top: 40px;
+            display: flex;
+            margin-left: 102px;
+            margin-right: 100px;
+            justify-content: space-between;
+            &_name {
+                &_img {
+                    max-height: 700px;
+                    &_head {
+                        display: flex;
+                        flex-wrap: wrap;
+                        position: relative;
+                        width: 330px;
+                        display: flex;
+                        background: #fff;
+                        left: 31px;
+                        bottom: 127px;
+                        &_container {
+                            margin: 25px 68px 0px 34px;
+                            ul {
+                                margin-top: 15px;
+                                margin-bottom: 50px;
+                                li {
+                                    list-style-position: inside;
+                                }
+                            }
+                        }
+                    }
+                }
+                &_price {
+                    width: 228px;
+                    height: 54px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: relative;
+                    bottom: 155px;
+                    left: 31px;
+                    background: #E3B873;
+                    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3)
+                }
+            }
+        }
         &_text {
             display: flex;
             flex-wrap: wrap;
@@ -556,50 +603,7 @@ header {
                 }
             }
         }
-        &_designs {
-            height: 700px;
-            position: relative;
-            width: 100%;
-            margin-top: 40px;
-            display: flex;
-            margin-left: 102px;
-            margin-right: 100px;
-            justify-content: space-between;
-            &_name {
-                &_img_head {
-                    display: flex;
-                    flex-wrap: wrap;
-                    position: relative;
-                    width: 330px;
-                    display: flex;
-                    background: #fff;
-                    left: 31px;
-                    bottom: 127px;
-                    &_container {
-                        margin: 25px 68px 0px 34px;
-                        ul {
-                            margin-top: 15px;
-                            margin-bottom: 50px;
-                            li {
-                                list-style-position: inside;
-                            }
-                        }
-                    }
-                }
-                &_price {
-                    width: 228px;
-                    height: 54px;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    position: relative;
-                    bottom: 155px;
-                    left: 31px;
-                    background: #E3B873;
-                    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3)
-                }
-            }
-        }
+        
     }
 }
 .steps {
