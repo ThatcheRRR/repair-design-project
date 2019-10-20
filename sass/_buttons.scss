@@ -89,7 +89,7 @@ nav {
 .repairs {
     &__descr_inputs_button_submit {
         cursor: pointer;
-        background: #E3B873;
+        background: $link-color;
         box-shadow: 0px 15px 15px rgba(227, 184, 115, 0.15);
         border-radius: 2px;
         &:hover {
@@ -98,7 +98,7 @@ nav {
     }
     &__request_form_blank_inputs_button_submit {
         cursor: pointer;
-        background: #E3B873;
+        background: $link-color;
         box-shadow: 0px 15px 15px rgba(227, 184, 115, 0.15);
         border-radius: 2px;
         &:hover {
@@ -106,6 +106,35 @@ nav {
         }
     }
 }
-.styles {
-    
+.styles__container_list_button_link:hover {
+    padding-bottom: 4px;
+    border-bottom: 1px solid $link-color;
+}
+.address__container_info_social_link:hover {
+    background: lighten($link-color, 10%);
+}
+.steps__container {
+    &_descr_arrows {
+        &_left, &_right {
+            font-size: 40.51px;
+            color:rgba(255, 255, 255, 0.3);
+            &:hover {
+                color: #fff;
+            }
+        }
+        &_circle {
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 100%;
+            &:hover {
+                background: #fff;
+            }
+        }
+    }
+    &_works_step {
+        &:hover {
+            .steps__container_works_step_link_page, .steps__container_works_step_link_descr {
+                color: #fff;
+            }
+        }
+    }
 }

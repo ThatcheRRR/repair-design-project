@@ -17,7 +17,7 @@
     src: url("assets/FuturaMediumC.woff") format("woff");
 }
 @font-face {
-    font-family: "ProximaNova-Regular";
+    font-family: "ProximaNova";
     font-weight: normal;
     font-style: normal;
     src: url("assets/ProximaNova-Regular.woff") format("woff");
@@ -34,7 +34,7 @@
     text-transform: uppercase;
 }
 %font-project-head {
-    font-family: "Yeseva One";
+    font-family: "YesevaOne";
     font-style: normal;
     font-weight: normal;
     text-transform: uppercase;
@@ -48,6 +48,15 @@
     font-size: 15px;
     line-height: 20px;
     color: #FFFFFF;
+}
+%font-styles-links {
+    font-family: "ProximaNova";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+
 }
 a {
     text-decoration: none;
@@ -93,7 +102,7 @@ header {
         }
     }
     &__description {
-        font-family: "Yeseva One";
+        font-family: "YesevaOne";
         font-style: normal;
         font-weight: normal;
         font-size: 40px;
@@ -125,7 +134,7 @@ header {
     }
 }
 .scroll-down__button {
-    font-family: "Yeseva One";
+    font-family: "YesevaOne";
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -225,7 +234,7 @@ header {
         &_designs_name {
             &_img {
                 &_head {
-                    font-family: "Yeseva One";
+                    font-family: "YesevaOne";
                     font-size: 18px;
                     line-height: 25px;
                     color: #363636;
@@ -302,6 +311,129 @@ header {
         }
     }
 }
-.styles {
-    
+.styles__container {
+    &_list {
+        &_head {
+            @extend %font-project-head;
+            font-size: 27px;
+            line-height: 37px;
+        }
+        &_button_link {
+            @extend %font-styles-links;
+            &:hover {
+                color: #E3B873;
+            }   
+        }
+    }
+}
+.design-project {
+    &__descr {
+        &_text {
+            @extend %font-project-descr;
+            color: #363636;
+            font-size: 20px;
+            line-height: 34px;
+        }
+    }
+    &__types {
+        &_container_descr {
+            font-family: "FuturaBookC";
+            font-size: 20px;
+            line-height: 27px;
+            text-align: center;
+            color: #363636;
+            
+        }
+        &_text {
+            @extend %font-project-head;
+            font-size: 20px;
+            line-height: 28px;
+            color: #181818;
+        }
+        &_designs_name {
+            &_img {
+                &_head {
+                    font-family: "YesevaOne";
+                    font-size: 18px;
+                    line-height: 25px;
+                    color: #363636;
+                }
+            }
+            &_price {
+                @extend %font-project-head;
+                font-size: 18px;
+                line-height: 25px;
+                color: #FFFFFF;
+            }
+            li {
+                @extend %font-project-descr;
+                line-height: 25px;
+                color: #959595;
+                list-style-position: inside;
+            }
+        }
+    }
+}
+.steps {
+    &__container {
+        &_descr {
+            &_working {
+                &_par {
+                    font-family: "FuturaDemiC";
+                    font-size: 15px;
+                    line-height: 21px;
+                    text-transform: uppercase;
+                    color: #FFFFFF;
+                }
+                &_header {
+                    @extend %font-project-head;
+                    font-size: 27px;
+                    line-height: 37px;
+                }
+            }
+            &_block {
+                &_page {
+                    @extend %font-project-head;
+                    font-size: 18px;
+                    line-height: 25px;
+                    color: #FFFFFF;
+                }
+                &_header {
+                    @extend %font-project-head;
+                    font-size: 15px;
+                    line-height: 23px;
+                }
+                &_text {
+                    @extend %font-project-descr;
+                }
+            }
+        }
+        &_works_step_link {
+            &_page {
+                font-family: "YesevaOne";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 15px;
+                line-height: 21px;
+                text-transform: uppercase;
+                color: rgba(255, 255, 255, 0.3);
+                border-bottom: 1px solid #E3B873;
+            }
+            &_descr {
+                font-family: "FuturaBookC";
+                font-size: 15px;
+                line-height: 18px;
+                color: rgba(255, 255, 255, 0.3);
+            }
+        }
+    }
+}
+.address__container_info_descr {
+    font-family: "YesevaOne";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #E3B873;
 }

@@ -20,7 +20,7 @@
 }
 
 @font-face {
-  font-family: "ProximaNova-Regular";
+  font-family: "ProximaNova";
   font-weight: normal;
   font-style: normal;
   src: url("assets/ProximaNova-Regular.woff") format("woff");
@@ -39,15 +39,15 @@
   text-transform: uppercase;
 }
 
-.projects__completed_par, .projects__completed_header_head, .projects__works_cities_city_link, .projects__online_text, .repairs__types_text, .repairs__types_designs_name_price {
-  font-family: "Yeseva One";
+.projects__completed_par, .projects__completed_header_head, .projects__works_cities_city_link, .projects__online_text, .repairs__types_text, .repairs__types_designs_name_price, .styles__container_list_head, .design-project__types_text, .design-project__types_designs_name_price, .steps__container_descr_working_header, .steps__container_descr_block_page, .steps__container_descr_block_header {
+  font-family: "YesevaOne";
   font-style: normal;
   font-weight: normal;
   text-transform: uppercase;
   color: #E3B873;
 }
 
-.projects__completed_text, .projects__completed_header_head_descr, .repairs__descr_text, .repairs__descr_inputs input, .repairs__descr_inputs input::-webkit-input-placeholder, .repairs__descr_inputs_label, .repairs__descr_inputs_agree label, .repairs__types_designs_name li, .repairs__request_form_blank_inputs_label, .repairs__request_form_blank_inputs_label-agree {
+.projects__completed_text, .projects__completed_header_head_descr, .repairs__descr_text, .repairs__descr_inputs input, .repairs__descr_inputs input::-webkit-input-placeholder, .repairs__descr_inputs_label, .repairs__descr_inputs_agree label, .repairs__types_designs_name li, .repairs__request_form_blank_inputs_label, .repairs__request_form_blank_inputs_label-agree, .design-project__descr_text, .design-project__types_designs_name li, .steps__container_descr_block_text {
   font-family: "FuturaBookC";
   font-style: normal;
   font-weight: normal;
@@ -57,7 +57,7 @@
   color: #FFFFFF;
 }
 
-.projects__completed_text, .projects__completed_header_head_descr, .repairs__descr_text, .repairs__descr_inputs input, .repairs__descr_inputs input:-ms-input-placeholder, .repairs__descr_inputs_label, .repairs__descr_inputs_agree label, .repairs__types_designs_name li, .repairs__request_form_blank_inputs_label, .repairs__request_form_blank_inputs_label-agree {
+.projects__completed_text, .projects__completed_header_head_descr, .repairs__descr_text, .repairs__descr_inputs input, .repairs__descr_inputs input:-ms-input-placeholder, .repairs__descr_inputs_label, .repairs__descr_inputs_agree label, .repairs__types_designs_name li, .repairs__request_form_blank_inputs_label, .repairs__request_form_blank_inputs_label-agree, .design-project__descr_text, .design-project__types_designs_name li, .steps__container_descr_block_text {
   font-family: "FuturaBookC";
   font-style: normal;
   font-weight: normal;
@@ -67,7 +67,7 @@
   color: #FFFFFF;
 }
 
-.projects__completed_text, .projects__completed_header_head_descr, .repairs__descr_text, .repairs__descr_inputs input, .repairs__descr_inputs input::-ms-input-placeholder, .repairs__descr_inputs_label, .repairs__descr_inputs_agree label, .repairs__types_designs_name li, .repairs__request_form_blank_inputs_label, .repairs__request_form_blank_inputs_label-agree {
+.projects__completed_text, .projects__completed_header_head_descr, .repairs__descr_text, .repairs__descr_inputs input, .repairs__descr_inputs input::-ms-input-placeholder, .repairs__descr_inputs_label, .repairs__descr_inputs_agree label, .repairs__types_designs_name li, .repairs__request_form_blank_inputs_label, .repairs__request_form_blank_inputs_label-agree, .design-project__descr_text, .design-project__types_designs_name li, .steps__container_descr_block_text {
   font-family: "FuturaBookC";
   font-style: normal;
   font-weight: normal;
@@ -77,13 +77,22 @@
   color: #FFFFFF;
 }
 
-.projects__completed_text, .projects__completed_header_head_descr, .repairs__descr_text, .repairs__descr_inputs input, .repairs__descr_inputs input::placeholder, .repairs__descr_inputs_label, .repairs__descr_inputs_agree label, .repairs__types_designs_name li, .repairs__request_form_blank_inputs_label, .repairs__request_form_blank_inputs_label-agree {
+.projects__completed_text, .projects__completed_header_head_descr, .repairs__descr_text, .repairs__descr_inputs input, .repairs__descr_inputs input::placeholder, .repairs__descr_inputs_label, .repairs__descr_inputs_agree label, .repairs__types_designs_name li, .repairs__request_form_blank_inputs_label, .repairs__request_form_blank_inputs_label-agree, .design-project__descr_text, .design-project__types_designs_name li, .steps__container_descr_block_text {
   font-family: "FuturaBookC";
   font-style: normal;
   font-weight: normal;
   text-transform: none;
   font-size: 15px;
   line-height: 20px;
+  color: #FFFFFF;
+}
+
+.styles__container_list_button_link {
+  font-family: "ProximaNova";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
   color: #FFFFFF;
 }
 
@@ -132,7 +141,7 @@ header {
 }
 
 .upper-block__description {
-  font-family: "Yeseva One";
+  font-family: "YesevaOne";
   font-style: normal;
   font-weight: normal;
   font-size: 40px;
@@ -166,7 +175,7 @@ header {
 }
 
 .scroll-down__button {
-  font-family: "Yeseva One";
+  font-family: "YesevaOne";
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -273,7 +282,7 @@ header {
 }
 
 .repairs__types_designs_name_img_head {
-  font-family: "Yeseva One";
+  font-family: "YesevaOne";
   font-size: 18px;
   line-height: 25px;
   color: #363636;
@@ -363,6 +372,106 @@ header {
   line-height: 25px;
   color: #E3B873;
   text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
+}
+
+.styles__container_list_head {
+  font-size: 27px;
+  line-height: 37px;
+}
+
+.styles__container_list_button_link:hover {
+  color: #E3B873;
+}
+
+.design-project__descr_text {
+  color: #363636;
+  font-size: 20px;
+  line-height: 34px;
+}
+
+.design-project__types_container_descr {
+  font-family: "FuturaBookC";
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #363636;
+}
+
+.design-project__types_text {
+  font-size: 20px;
+  line-height: 28px;
+  color: #181818;
+}
+
+.design-project__types_designs_name_img_head {
+  font-family: "YesevaOne";
+  font-size: 18px;
+  line-height: 25px;
+  color: #363636;
+}
+
+.design-project__types_designs_name_price {
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+
+.design-project__types_designs_name li {
+  line-height: 25px;
+  color: #959595;
+  list-style-position: inside;
+}
+
+.steps__container_descr_working_par {
+  font-family: "FuturaDemiC";
+  font-size: 15px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.steps__container_descr_working_header {
+  font-size: 27px;
+  line-height: 37px;
+}
+
+.steps__container_descr_block_page {
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+
+.steps__container_descr_block_header {
+  font-size: 15px;
+  line-height: 23px;
+}
+
+.steps__container_works_step_link_page {
+  font-family: "YesevaOne";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.3);
+  border-bottom: 1px solid #E3B873;
+}
+
+.steps__container_works_step_link_descr {
+  font-family: "FuturaBookC";
+  font-size: 15px;
+  line-height: 18px;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.address__container_info_descr {
+  font-family: "YesevaOne";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #E3B873;
 }
 
 nav .nav__menu_link:hover {
@@ -476,6 +585,37 @@ nav .nav__menu-tel_tel:hover {
 
 .repairs__request_form_blank_inputs_button_submit:hover {
   background: #ecce9e;
+}
+
+.styles__container_list_button_link:hover {
+  padding-bottom: 4px;
+  border-bottom: 1px solid #E3B873;
+}
+
+.address__container_info_social_link:hover {
+  background: #ecce9e;
+}
+
+.steps__container_descr_arrows_left, .steps__container_descr_arrows_right {
+  font-size: 40.51px;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.steps__container_descr_arrows_left:hover, .steps__container_descr_arrows_right:hover {
+  color: #fff;
+}
+
+.steps__container_descr_arrows_circle {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 100%;
+}
+
+.steps__container_descr_arrows_circle:hover {
+  background: #fff;
+}
+
+.steps__container_works_step:hover .steps__container_works_step_link_page, .steps__container_works_step:hover .steps__container_works_step_link_descr {
+  color: #fff;
 }
 
 * {
@@ -667,6 +807,19 @@ header .nav__menu-button_button {
   margin-right: 70px;
 }
 
+.projects__completed_par {
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.projects__completed_header_head_descr {
+  width: 100px;
+}
+
 .projects__completed_arrows {
   width: 260px;
   display: -webkit-box;
@@ -721,14 +874,6 @@ header .nav__menu-button_button {
 
 .projects__completed_header_head_descr {
   margin-top: 8px;
-}
-
-.projects__completed_par {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
 }
 
 .projects__works {
@@ -1028,6 +1173,14 @@ header .nav__menu-button_button {
   margin: 25px 68px 49px 34px;
 }
 
+.repairs__types_designs_name_img_head_container ul {
+  margin-top: 15px;
+}
+
+.repairs__types_designs_name_img_head_container ul li {
+  list-style-position: inside;
+}
+
 .repairs__types_designs_name_price {
   width: 228px;
   height: 54px;
@@ -1195,20 +1348,27 @@ header .nav__menu-button_button {
 }
 
 .styles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   height: 864px;
   background: linear-gradient(120.96deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.9) 100%), url("assets/stylesbg.png");
 }
 
 .styles__container {
-  margin-top: 137.47px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-right: 102px;
   margin-left: 99px;
 }
 
-.styles__container_head {
-  margin-top: 137px;
-}
-
 .styles__container_list {
+  margin-right: 205px;
   margin-top: 47px;
   width: 299px;
   display: -webkit-box;
@@ -1216,6 +1376,370 @@ header .nav__menu-button_button {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+.styles__container_list_head {
+  margin-top: 90px;
+  margin-bottom: 47px;
+  width: 300px;
+}
+
+.styles__container_list_button {
+  width: 100%;
+}
+
+.styles__container_list_button:not(:last-child) {
+  margin-bottom: 22px;
+}
+
+.styles__images_sample {
+  position: relative;
+}
+
+.styles__images_sample:nth-child(1) {
+  margin-right: 23px;
+  bottom: 40.53px;
+}
+
+.styles__images_sample:nth-child(2) {
+  bottom: 394px;
+}
+
+.styles__images_sample:nth-child(3) {
+  margin-right: 23px;
+  bottom: 282px;
+}
+
+.styles__images_sample:nth-child(4) {
+  bottom: 362px;
+}
+
+.design-project {
+  height: 470px;
+}
+
+.design-project__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.design-project__types {
+  height: 725px;
+  margin-top: 148px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.design-project__types_container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.design-project__types_container_descr {
+  width: 660px;
+  margin-top: 24px;
+}
+
+.design-project__types_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 195px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.design-project__types_text_img {
+  margin-top: 12px;
+  width: 115px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.design-project__types_text_img_line {
+  background: #E3B873;
+  border-radius: 30px;
+  height: 1.54px;
+  width: 32px;
+}
+
+.design-project__types_designs {
+  height: 700px;
+  position: relative;
+  width: 100%;
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 102px;
+  margin-right: 100px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.design-project__types_designs_name_img_head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: relative;
+  width: 330px;
+  display: flex;
+  background: #fff;
+  left: 31px;
+  bottom: 127px;
+}
+
+.design-project__types_designs_name_img_head_container {
+  margin: 25px 68px 0px 34px;
+}
+
+.design-project__types_designs_name_img_head_container ul {
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+.design-project__types_designs_name_img_head_container ul li {
+  list-style-position: inside;
+}
+
+.design-project__types_designs_name_price {
+  width: 228px;
+  height: 54px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  bottom: 155px;
+  left: 31px;
+  background: #E3B873;
+  -webkit-box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+          box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+}
+
+.steps {
+  padding-top: 429px;
+  background: #131313;
+}
+
+.steps__container {
+  margin-left: 99px;
+  margin-right: 102px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.steps__container_descr {
+  margin-right: 140px;
+  width: 337px;
+}
+
+.steps__container_descr_working_header {
+  margin-top: 20px;
+}
+
+.steps__container_descr_block {
+  margin-top: 92px;
+}
+
+.steps__container_descr_block_header {
+  width: 240px;
+  margin-top: 22px;
+}
+
+.steps__container_descr_block_text:last-child {
+  margin-top: 15px;
+}
+
+.steps__container_descr_block_text {
+  margin-top: 20px;
+}
+
+.steps__container_descr_arrows {
+  margin-top: 100px;
+}
+
+.steps__container_descr_arrows {
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.steps__container_descr_arrows_left, .steps__container_descr_arrows_right {
+  display: inline-block;
+}
+
+.steps__container_descr_arrows_left {
+  margin-right: 29px;
+}
+
+.steps__container_descr_arrows_right {
+  margin-left: 29px;
+}
+
+.steps__container_descr_arrows_circle {
+  display: inline-block;
+  height: 9.57px;
+  width: 9.57px;
+}
+
+.steps__container_descr_arrows_circle:not(:last-child) {
+  margin-right: 10px;
+}
+
+.steps__container_works {
+  width: 766px;
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.steps__container_works_step {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 125px;
+  margin-bottom: 40px;
+}
+
+.steps__container_works_step:not(:nth-child(3n)) {
+  margin-right: 195px;
+}
+
+.steps__container_works_step_link {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.steps__container_works_step_link_descr {
+  margin-top: 12px;
+}
+
+.steps__container_works img {
+  margin-top: 20px;
+}
+
+.address {
+  height: 954px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(3.47%, rgba(24, 24, 24, 0.9)), to(rgba(24, 24, 24, 0.72))), url("assets/mapbg.png");
+  background: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24, 0.72) 100%), url("assets/mapbg.png");
+}
+
+.address__container {
+  width: 925px;
+  margin: 0 auto;
+}
+
+.address__container_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.address__container_info_descr {
+  margin-top: 275px;
+  display: inline-block;
+  text-align: center;
+  width: 570px;
+}
+
+.address__container_info_social {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 26px;
+  margin-bottom: 43px;
+}
+
+.address__container_info_social_link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  background: #E3B873;
+}
+
+.address__container_info_social_link:nth-child(1) {
+  margin-right: 15px;
+}
+
+.address__container_info img {
+  margin: 0 auto;
 }
 
 footer nav {

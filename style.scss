@@ -99,15 +99,26 @@ header {
     }
 }
 .projects {
+    display: flex;
+    flex-wrap: nowrap;
     &-container {
         display: flex;
         flex-wrap: wrap;
         height: 1074px;
         background: $bgcolor;
     }
-    display: flex;
-    flex-wrap: nowrap;
     &__completed {
+        margin-top: 176.36px;
+        margin-left: 101.45px;
+        margin-right: 70px;
+        &_par {
+            width: 200px;
+            display: flex;
+            flex-wrap: nowrap;
+        }
+        &_header_head_descr {
+            width: 100px;
+        }
         &_arrows {
             width: 260px;
             display: flex;
@@ -128,9 +139,6 @@ header {
                 width: 9.57px;
             }
         }
-        margin-top: 176.36px;
-        margin-left: 101.45px;
-        margin-right: 70px;
         &_text {
             margin-top: 34px;
         }
@@ -146,10 +154,6 @@ header {
                     margin-top: 8px;
                 }
             }
-        }
-        &_par {
-            display: flex;
-            flex-wrap: nowrap;
         }
     }
     &__works {
@@ -342,6 +346,12 @@ header {
                     bottom: 127px;
                     &_container {
                         margin: 25px 68px 49px 34px;
+                        ul {
+                            margin-top: 15px;;
+                            li {
+                                list-style-position: inside;
+                            }
+                        }
                     }
                 }
                 &_price {
@@ -455,19 +465,263 @@ header {
     }
 }
 .styles {
+    display: flex;
     height: 864px;
     background: linear-gradient(120.96deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.9) 100%), url("assets/stylesbg.png");
     &__container {
-        &_head {
-            margin-top: 137px;
-        }
-        margin-top: 137.47px;
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        margin-right: 102px;
         margin-left: 99px;
         &_list {
+            &_head {
+                margin-top: 90px;
+                margin-bottom: 47px;
+                width: 300px;
+            }
+            margin-right: 205px;
             margin-top: 47px;
             width: 299px;
             display: flex;
             flex-wrap: wrap;
+            &_button {
+                width: 100%;
+                &:not(:last-child) {
+                    margin-bottom: 22px;
+                }
+            }
+        }
+    }
+    &__images {
+        &_sample {
+            position: relative;
+            &:nth-child(1) {
+                margin-right: 23px;
+                bottom: 40.53px; 
+            }
+            &:nth-child(2) {
+                bottom: 394px;
+            }
+            &:nth-child(3) {
+                margin-right: 23px;
+                bottom: 282px;
+            }
+            &:nth-child(4) {
+                bottom: 362px;
+            }
+        }
+    }
+}
+.design-project {
+    height: 470px;
+    &__container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+    &__types {
+        height: 725px;
+        margin-top: 148px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        &_container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            &_descr {
+                width: 660px;
+                margin-top: 24px;
+            }
+        }
+        &_text {
+            display: flex;
+            flex-wrap: wrap;
+            width: 195px;
+            justify-content: center;
+            &_img {
+                margin-top: 12px;
+                width: 115px;
+                align-items: center;
+                justify-content: space-between;
+                display: flex;
+                &_line {
+                    background: #E3B873;
+                    border-radius: 30px;
+                    height: 1.54px;
+                    width: 32px;
+                }
+            }
+        }
+        &_designs {
+            height: 700px;
+            position: relative;
+            width: 100%;
+            margin-top: 40px;
+            display: flex;
+            margin-left: 102px;
+            margin-right: 100px;
+            justify-content: space-between;
+            &_name {
+                &_img_head {
+                    display: flex;
+                    flex-wrap: wrap;
+                    position: relative;
+                    width: 330px;
+                    display: flex;
+                    background: #fff;
+                    left: 31px;
+                    bottom: 127px;
+                    &_container {
+                        margin: 25px 68px 0px 34px;
+                        ul {
+                            margin-top: 15px;
+                            margin-bottom: 50px;
+                            li {
+                                list-style-position: inside;
+                            }
+                        }
+                    }
+                }
+                &_price {
+                    width: 228px;
+                    height: 54px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: relative;
+                    bottom: 155px;
+                    left: 31px;
+                    background: #E3B873;
+                    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3)
+                }
+            }
+        }
+    }
+}
+.steps {
+    padding-top: 429px;
+    background: #131313;
+    &__container {
+        margin-left: 99px;
+        margin-right: 102px;
+        display: flex;
+        justify-content: center;
+        &_descr {
+            margin-right: 140px;
+            width: 337px;
+            &_working_header {
+                margin-top: 20px;
+            }
+            &_block {
+                margin-top: 92px;
+                &_header {
+                    width: 240px;
+                    margin-top: 22px;
+                }
+                &_text:last-child {
+                    margin-top: 15px;
+                }
+                &_text {
+                    margin-top: 20px;
+                }
+            }
+            &_arrows {
+                margin-top: 100px;
+            }
+            &_arrows {
+                width: 300px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                &_left, &_right {
+                    display: inline-block;
+                }
+                &_left {
+                    margin-right: 29px;
+                }
+                &_right {
+                    margin-left: 29px;
+                }
+                &_circle {
+                    display: inline-block;
+                    height: 9.57px;
+                    width: 9.57px;
+                    &:not(:last-child) {
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+        &_works {
+            width: 766px;
+            margin-top: 100px;
+            display: flex;
+            flex-wrap: wrap;
+            &_step {
+                display: flex;
+                flex-wrap: wrap;
+                width: 125px;
+                margin-bottom: 40px;
+                &:not(:nth-child(3n)) {
+                    margin-right: 195px;
+                }
+                &_link {
+                    width: 100%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    &_descr {
+                        margin-top: 12px;
+                    }
+                }
+            }
+            img {
+                margin-top: 20px;
+            }
+        }
+    }
+}
+.address {
+    height: 954px;
+    background: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24, 0.72) 100%), url("assets/mapbg.png");
+    &__container {
+        width: 925px;
+        margin: 0 auto;
+        &_info {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            &_descr {
+                margin-top: 275px;
+                display: inline-block;
+                text-align: center;
+                width: 570px;
+            }
+            &_social {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                margin-top: 26px;
+                margin-bottom: 43px;
+                &_link {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 28px;
+                    width: 28px;
+                    border-radius: 50%;
+                    background: #E3B873;
+                    &:nth-child(1) {
+                        margin-right: 15px;
+                    }
+                }
+            }
+            img {
+                margin: 0 auto;
+            }
         }
     }
 }
