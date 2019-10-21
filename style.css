@@ -689,8 +689,8 @@ header .nav__menu-button_button {
 
 .upper-block {
   height: 707px;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.65))), url("/assets/main-bg.png");
-  background: linear-gradient(rgba(0, 0, 0, 0.65)), url("/assets/main-bg.png");
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(3.47%, rgba(24, 24, 24, 0.9)), to(rgba(24, 24, 24, 0.72))), url("assets/main-bg.png");
+  background: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24, 0.72) 100%), url("assets/main-bg.png");
 }
 
 .upper-block__instagram {
