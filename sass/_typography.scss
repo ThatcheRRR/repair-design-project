@@ -427,6 +427,128 @@ header {
             }
         }
     }
+    .team {
+        &__types {
+            &_text {
+                @extend %font-project-head;
+                font-size: 20px;
+                line-height: 28px;
+                color: #FFFFFF;
+            }
+            &_container_descr {
+                @extend %font-project-descr;
+                font-size: 20px;
+                line-height: 27px;
+                text-align: center;
+            }
+        }
+        &__members_container_block_person {
+            &_descr {
+                &_name {
+                    @extend %font-project-head;
+                    font-size: 18px;
+                    line-height: 25px;
+                    color: #181818;
+                }
+                &_pos {
+                    @extend %font-project-descr;
+                    font-size: 18px;
+                    line-height: 26px;
+                    color: #959595;
+                }
+            }
+            &_exp {
+                @extend %font-project-head;
+                font-size: 13px;
+                line-height: 20px;
+                color: #FFFFFF;
+            }
+        }
+        &__descr_text {
+            @extend %font-project-descr;
+            font-size: 20px;
+            line-height: 34px;
+            color: #363636;
+        }
+    }
+}
+
+.clients {
+    &__types {
+        &_text {
+            @extend %font-project-head;
+            font-size: 20px;
+            line-height: 28px;
+            color: #181818;
+        }
+        &_container_descr {
+            font-family: "FuturaBookC";
+            font-size: 20px;
+            line-height: 27px;
+            text-align: center;
+            color: #181818;    
+        }
+    }
+    &__reviews_container_user {
+        &_name {
+            @extend %font-project-head;
+            font-size: 18px;
+            line-height: 23px;
+            color: #181818;
+        }
+        &_review {
+            @extend %font-project-descr;
+            font-size: 15px;
+            line-height: 180%;
+            color: #959595;
+        }
+        &_type {
+            @extend %font-project-head;
+            font-size: 17px;
+            line-height: 24px;
+            color: #FFFFFF;
+        }
+    }
+    .ask {
+        &__head {
+            @extend %font-project-head;
+            font-size: 20px;
+            line-height: 28px;
+            color: #FFFFFF;
+        }
+        &__inputs {
+                &_label {
+                    @extend %font-project-descr;
+                    color: rgba(255, 255, 255, 0.5);
+                    &_agree {
+                        @extend %font-project-descr;
+                        font-size: 16px;
+                        line-height: 22px;
+                    }
+                }
+                &_button_submit {
+                    font-family: "FuturaDemiC";
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 13px;
+                    line-height: 18px;
+                    text-transform: uppercase;
+                    color: #FFFFFF;
+                }
+            }
+            input {
+                font-family: "FuturaMediumC";
+                font-size: 18px;
+                line-height: 25px;
+                color: #FFFFFF
+            }
+            input::placeholder {
+                font-family: "FuturaMediumC";
+                font-size: 18px;
+                line-height: 25px;
+                color: #FFFFFF
+            }
+    }
 }
 .address__container_info_descr {
     font-family: "YesevaOne";

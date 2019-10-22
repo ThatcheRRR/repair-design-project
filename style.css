@@ -39,7 +39,7 @@
   text-transform: uppercase;
 }
 
-.projects__completed_par, .projects__completed_header_head, .projects__works_cities_city_link, .projects__online_text, .repairs__types_text, .repairs__types_designs_name_price, .styles__container_list_head, .design-project__types_text, .design-project__types_designs_name_price, .steps__container_descr_working_header, .steps__container_descr_block_page, .steps__container_descr_block_header {
+.projects__completed_par, .projects__completed_header_head, .projects__works_cities_city_link, .projects__online_text, .repairs__types_text, .repairs__types_designs_name_price, .styles__container_list_head, .design-project__types_text, .design-project__types_designs_name_price, .steps__container_descr_working_header, .steps__container_descr_block_page, .steps__container_descr_block_header, .steps .team__types_text, .steps .team__members_container_block_person_descr_name, .steps .team__members_container_block_person_exp, .clients__types_text, .clients__reviews_container_user_name, .clients__reviews_container_user_type, .clients .ask__head {
   font-family: "YesevaOne";
   font-style: normal;
   font-weight: normal;
@@ -47,7 +47,7 @@
   color: #E3B873;
 }
 
-.projects__completed_text, .projects__completed_header_head_descr, .repairs__descr_text, .repairs__descr_inputs input, .repairs__descr_inputs input::-webkit-input-placeholder, .repairs__descr_inputs_label, .repairs__descr_inputs_agree label, .repairs__types_designs_name li, .repairs__request_form_blank_inputs_label, .repairs__request_form_blank_inputs_label-agree, .design-project__descr_text, .design-project__types_designs_name li, .steps__container_descr_block_text {
+.projects__completed_text, .projects__completed_header_head_descr, .repairs__descr_text, .repairs__descr_inputs input, .repairs__descr_inputs input::-webkit-input-placeholder, .repairs__descr_inputs_label, .repairs__descr_inputs_agree label, .repairs__types_designs_name li, .repairs__request_form_blank_inputs_label, .repairs__request_form_blank_inputs_label-agree, .design-project__descr_text, .design-project__types_designs_name li, .steps__container_descr_block_text, .steps .team__types_container_descr, .steps .team__members_container_block_person_descr_pos, .steps .team__descr_text, .clients__reviews_container_user_review, .clients .ask__inputs_label, .clients .ask__inputs_label_agree {
   font-family: "FuturaBookC";
   font-style: normal;
   font-weight: normal;
@@ -57,7 +57,7 @@
   color: #FFFFFF;
 }
 
-.projects__completed_text, .projects__completed_header_head_descr, .repairs__descr_text, .repairs__descr_inputs input, .repairs__descr_inputs input:-ms-input-placeholder, .repairs__descr_inputs_label, .repairs__descr_inputs_agree label, .repairs__types_designs_name li, .repairs__request_form_blank_inputs_label, .repairs__request_form_blank_inputs_label-agree, .design-project__descr_text, .design-project__types_designs_name li, .steps__container_descr_block_text {
+.projects__completed_text, .projects__completed_header_head_descr, .repairs__descr_text, .repairs__descr_inputs input, .repairs__descr_inputs input:-ms-input-placeholder, .repairs__descr_inputs_label, .repairs__descr_inputs_agree label, .repairs__types_designs_name li, .repairs__request_form_blank_inputs_label, .repairs__request_form_blank_inputs_label-agree, .design-project__descr_text, .design-project__types_designs_name li, .steps__container_descr_block_text, .steps .team__types_container_descr, .steps .team__members_container_block_person_descr_pos, .steps .team__descr_text, .clients__reviews_container_user_review, .clients .ask__inputs_label, .clients .ask__inputs_label_agree {
   font-family: "FuturaBookC";
   font-style: normal;
   font-weight: normal;
@@ -67,7 +67,7 @@
   color: #FFFFFF;
 }
 
-.projects__completed_text, .projects__completed_header_head_descr, .repairs__descr_text, .repairs__descr_inputs input, .repairs__descr_inputs input::-ms-input-placeholder, .repairs__descr_inputs_label, .repairs__descr_inputs_agree label, .repairs__types_designs_name li, .repairs__request_form_blank_inputs_label, .repairs__request_form_blank_inputs_label-agree, .design-project__descr_text, .design-project__types_designs_name li, .steps__container_descr_block_text {
+.projects__completed_text, .projects__completed_header_head_descr, .repairs__descr_text, .repairs__descr_inputs input, .repairs__descr_inputs input::-ms-input-placeholder, .repairs__descr_inputs_label, .repairs__descr_inputs_agree label, .repairs__types_designs_name li, .repairs__request_form_blank_inputs_label, .repairs__request_form_blank_inputs_label-agree, .design-project__descr_text, .design-project__types_designs_name li, .steps__container_descr_block_text, .steps .team__types_container_descr, .steps .team__members_container_block_person_descr_pos, .steps .team__descr_text, .clients__reviews_container_user_review, .clients .ask__inputs_label, .clients .ask__inputs_label_agree {
   font-family: "FuturaBookC";
   font-style: normal;
   font-weight: normal;
@@ -77,7 +77,7 @@
   color: #FFFFFF;
 }
 
-.projects__completed_text, .projects__completed_header_head_descr, .repairs__descr_text, .repairs__descr_inputs input, .repairs__descr_inputs input::placeholder, .repairs__descr_inputs_label, .repairs__descr_inputs_agree label, .repairs__types_designs_name li, .repairs__request_form_blank_inputs_label, .repairs__request_form_blank_inputs_label-agree, .design-project__descr_text, .design-project__types_designs_name li, .steps__container_descr_block_text {
+.projects__completed_text, .projects__completed_header_head_descr, .repairs__descr_text, .repairs__descr_inputs input, .repairs__descr_inputs input::placeholder, .repairs__descr_inputs_label, .repairs__descr_inputs_agree label, .repairs__types_designs_name li, .repairs__request_form_blank_inputs_label, .repairs__request_form_blank_inputs_label-agree, .design-project__descr_text, .design-project__types_designs_name li, .steps__container_descr_block_text, .steps .team__types_container_descr, .steps .team__members_container_block_person_descr_pos, .steps .team__descr_text, .clients__reviews_container_user_review, .clients .ask__inputs_label, .clients .ask__inputs_label_agree {
   font-family: "FuturaBookC";
   font-style: normal;
   font-weight: normal;
@@ -464,6 +464,134 @@ header {
   color: rgba(255, 255, 255, 0.3);
 }
 
+.steps .team__types_text {
+  font-size: 20px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+.steps .team__types_container_descr {
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+}
+
+.steps .team__members_container_block_person_descr_name {
+  font-size: 18px;
+  line-height: 25px;
+  color: #181818;
+}
+
+.steps .team__members_container_block_person_descr_pos {
+  font-size: 18px;
+  line-height: 26px;
+  color: #959595;
+}
+
+.steps .team__members_container_block_person_exp {
+  font-size: 13px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.steps .team__descr_text {
+  font-size: 20px;
+  line-height: 34px;
+  color: #363636;
+}
+
+.clients__types_text {
+  font-size: 20px;
+  line-height: 28px;
+  color: #181818;
+}
+
+.clients__types_container_descr {
+  font-family: "FuturaBookC";
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #181818;
+}
+
+.clients__reviews_container_user_name {
+  font-size: 18px;
+  line-height: 23px;
+  color: #181818;
+}
+
+.clients__reviews_container_user_review {
+  font-size: 15px;
+  line-height: 180%;
+  color: #959595;
+}
+
+.clients__reviews_container_user_type {
+  font-size: 17px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.clients .ask__head {
+  font-size: 20px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+.clients .ask__inputs_label {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.clients .ask__inputs_label_agree {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.clients .ask__inputs_button_submit {
+  font-family: "FuturaDemiC";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.clients .ask input {
+  font-family: "FuturaMediumC";
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+
+.clients .ask input::-webkit-input-placeholder {
+  font-family: "FuturaMediumC";
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+
+.clients .ask input:-ms-input-placeholder {
+  font-family: "FuturaMediumC";
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+
+.clients .ask input::-ms-input-placeholder {
+  font-family: "FuturaMediumC";
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+
+.clients .ask input::placeholder {
+  font-family: "FuturaMediumC";
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+
 .address__container_info_descr {
   font-family: "YesevaOne";
   font-style: normal;
@@ -592,10 +720,6 @@ nav .nav__menu-tel_tel:hover {
   border-bottom: 1px solid #E3B873;
 }
 
-.address__container_info_social_link:hover {
-  background: #ecce9e;
-}
-
 .steps__container_descr_arrows_left, .steps__container_descr_arrows_right {
   font-size: 40.51px;
   color: rgba(255, 255, 255, 0.3);
@@ -616,6 +740,22 @@ nav .nav__menu-tel_tel:hover {
 
 .steps__container_works_step:hover .steps__container_works_step_link_page, .steps__container_works_step:hover .steps__container_works_step_link_descr {
   color: #fff;
+}
+
+.ask__inputs_button_submit {
+  cursor: pointer;
+  background: #E3B873;
+  -webkit-box-shadow: 0px 15px 15px rgba(227, 184, 115, 0.15);
+          box-shadow: 0px 15px 15px rgba(227, 184, 115, 0.15);
+  border-radius: 2px;
+}
+
+.ask__inputs_button_submit:hover {
+  background: #ecce9e;
+}
+
+.address__container_info_social_link:hover {
+  background: #ecce9e;
 }
 
 * {
@@ -1460,6 +1600,39 @@ header .nav__menu-button_button {
   margin-top: 24px;
 }
 
+.design-project__types_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 195px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.design-project__types_text_img {
+  margin-top: 12px;
+  width: 115px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.design-project__types_text_img_line {
+  background: #E3B873;
+  border-radius: 30px;
+  height: 1.54px;
+  width: 32px;
+}
+
 .design-project__types_designs {
   height: 700px;
   position: relative;
@@ -1526,40 +1699,8 @@ header .nav__menu-button_button {
           box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
 }
 
-.design-project__types_text {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  width: 195px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.design-project__types_text_img {
-  margin-top: 12px;
-  width: 115px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.design-project__types_text_img_line {
-  background: #E3B873;
-  border-radius: 30px;
-  height: 1.54px;
-  width: 32px;
-}
-
 .steps {
+  height: 1220px;
   padding-top: 429px;
   background: #131313;
 }
@@ -1679,6 +1820,451 @@ header .nav__menu-button_button {
 
 .steps__container_works img {
   margin-top: 20px;
+}
+
+.steps .team {
+  position: relative;
+  margin-top: 95px;
+}
+
+.steps .team__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.steps .team__types {
+  height: 725px;
+  margin-top: 148px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.steps .team__types_container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.steps .team__types_container_descr {
+  width: 450px;
+  margin-top: 24px;
+}
+
+.steps .team__types_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 195px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.steps .team__types_text_img {
+  margin-top: 12px;
+  width: 115px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.steps .team__types_text_img_line {
+  background: #E3B873;
+  border-radius: 30px;
+  height: 1.54px;
+  width: 32px;
+}
+
+.steps .team__members {
+  margin: 80px 205px 0px 206px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.steps .team__members_container_block_person {
+  position: relative;
+  left: 20px;
+  bottom: 86px;
+  width: 233px;
+  background: #fff;
+}
+
+.steps .team__members_container_block_person_descr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.steps .team__members_container_block_person_descr_name {
+  margin-top: 22px;
+  width: 100%;
+  text-align: center;
+}
+
+.steps .team__members_container_block_person_descr_pos {
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.steps .team__members_container_block_person_exp {
+  height: 44px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #E3B873;
+}
+
+.steps .team__descr {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.steps .team__descr_line {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.steps .team__descr_line_hor {
+  width: 55px;
+  height: 1.54px;
+  background: #E3B873;
+  border-radius: 30px;
+}
+
+.steps .team__descr_text {
+  margin-top: 17px;
+  width: 560px;
+  text-align: center;
+}
+
+.clients {
+  height: 1190px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 460px;
+}
+
+.clients__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.clients__types {
+  height: 725px;
+  margin-top: 148px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.clients__types_container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.clients__types_container_descr {
+  width: 350px;
+  margin-top: 24px;
+}
+
+.clients__types_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 195px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.clients__types_text_img {
+  margin-top: 12px;
+  width: 115px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.clients__types_text_img_line {
+  background: #E3B873;
+  border-radius: 30px;
+  height: 1.54px;
+  width: 32px;
+}
+
+.clients__reviews {
+  margin-left: 102px;
+  margin-right: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.clients__reviews_container {
+  height: 430px;
+  padding: 24px 31px 0px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.clients__reviews_container_user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.clients__reviews_container_user img {
+  border-radius: 50%;
+}
+
+.clients__reviews_container_user_name {
+  margin-left: 20px;
+  width: 182px;
+}
+
+.clients__reviews_container_user_review {
+  margin-top: 20px;
+  margin-bottom: 55px;
+}
+
+.clients__reviews_container_user_type {
+  position: relative;
+  width: 294px;
+  height: 54px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #E3B873;
+  -webkit-box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
+          box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
+}
+
+.clients__reviews_container_user_type_info {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.clients__reviews_container_user_type_info:not(:last-child) {
+  border-right: 1px solid #fff;
+}
+
+.clients__reviews_container_user_type_info svg {
+  margin-right: 15px;
+}
+
+.clients .ask {
+  position: relative;
+  top: 112px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 883px;
+  height: 445px;
+  background: #131313;
+}
+
+.clients .ask__head {
+  margin-top: 34.4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 520px;
+}
+
+.clients .ask__inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 520px;
+}
+
+.clients .ask__inputs_name, .clients .ask__inputs_phone, .clients .ask__inputs_questions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.clients .ask__inputs input:not([type="checkbox"]) {
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  background: none;
+}
+
+.clients .ask__inputs_question {
+  margin-top: 46px;
+  width: 520px;
+}
+
+.clients .ask__inputs_question input {
+  width: 100%;
+}
+
+.clients .ask__inputs_agree {
+  margin-top: 46px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.clients .ask__inputs_button {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.clients .ask__inputs_button_submit {
+  margin-bottom: 34.4px;
+  margin-top: 50px;
+  width: 200px;
+  height: 51px;
+  border: none;
+}
+
+.clients .ask__inputs_label {
+  width: 100%;
+}
+
+.clients .ask__inputs_label_agree {
+  margin-left: 9px;
 }
 
 .address {
