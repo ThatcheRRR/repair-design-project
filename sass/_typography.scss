@@ -4,35 +4,41 @@
     font-style: normal;
     src: url("assets/FuturaDemiC.woff") format("woff");
 }
+
 @font-face {
     font-family: "FuturaBookC";
     font-weight: normal;
     font-style: normal;
     src: url("assets/FuturaBookC.woff") format("woff");
 }
+
 @font-face {
     font-family: "FuturaMediumC";
     font-weight: normal;
     font-style: normal;
     src: url("assets/FuturaMediumC.woff") format("woff");
 }
+
 @font-face {
     font-family: "ProximaNova";
     font-weight: normal;
     font-style: normal;
     src: url("assets/ProximaNova-Regular.woff") format("woff");
 }
+
 @font-face {
     font-family: "YesevaOne";
     font-weight: normal;
     font-style: normal;
     src: url("assets/YesevaOne.woff") format("woff");
 }
+
 %font-option {
     font-size: 14px;
     line-height: 16px;
     text-transform: uppercase;
 }
+
 %font-project-head {
     font-family: "YesevaOne";
     font-style: normal;
@@ -40,6 +46,7 @@
     text-transform: uppercase;
     color: #E3B873;
 }
+
 %font-project-descr {
     font-family: "FuturaBookC";
     font-style: normal;
@@ -49,6 +56,7 @@
     line-height: 20px;
     color: #FFFFFF;
 }
+
 %font-styles-links {
     font-family: "ProximaNova";
     font-style: normal;
@@ -58,12 +66,19 @@
     color: #FFFFFF;
 
 }
+
+h2 {
+    font-weight: normal; 
+}
+
 a {
     text-decoration: none;
 }
+
 header {
     text-align: center;
 }
+
 .nav {
     &__menu {
         &_link {
@@ -90,49 +105,51 @@ header {
         color: #E3B873;
     }
 }
-.upper-block {
-    &__instagram_link {
-        @extend %font-option;
-        color: #E3B873;
-        font-family: "FuturaDemiC";
-        font-style: normal;
-        font-weight: 600;
-        &_text {
-            transform: rotate(90deg);
+
+.instagram__link {
+    @extend %font-option;
+    color: #E3B873;
+    font-family: "FuturaDemiC";
+    font-style: normal;
+    font-weight: 600;
+}
+
+.description {
+    font-family: "YesevaOne";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 53px;
+    color: #FFFFFF;
+    &__repair {
+        h2 {
+            font-size: 40px;
+            line-height: 53px;
         }
-    }
-    &__description {
-        font-family: "YesevaOne";
-        font-style: normal;
-        font-weight: normal;
-        font-size: 40px;
-        line-height: 53px;
-        color: #FFFFFF;
-        &_repair {
-            text-transform: uppercase;
-        }
+        text-transform: uppercase;
         &_city {
             color: #E3B873;
         }
-        &_cost {
-            font-family: "FuturaBookC";
-            font-style: normal;
-            font-weight: normal;
-            font-size: 22px;
-            line-height: 30px;
+    }
+    &__cost {
+        font-family: "FuturaBookC";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+    &__buttons {
+        &_calculate, &_submit, &_application {
+            font-family: "FuturaDemiC";
+            font-size: 13px;
+            line-height: 15px;
+            text-align: center;
             color: #FFFFFF;
         }
-        &_buttons {
-            &_calculate, &_submit {
-                font-family: "FuturaDemiC";
-                font-size: 13px;
-                line-height: 15px;
-                text-align: center;
-                color: #FFFFFF;
-            }
-        }
-    }
+    }   
 }
+
 .scroll-down__button {
     font-family: "YesevaOne";
     font-style: normal;
@@ -142,20 +159,25 @@ header {
     text-transform: uppercase;
     color: #FFFFFF;
 }
+
 .projects {
-    &__completed {
-        &_par {
+    .completed {
+        &__par {
             font-size: 27px;
             line-height: 37px;
             letter-spacing: -0.07em;
             @extend %font-project-head;
+            h2 {
+                font-size: 27px;
+                line-height: 37px;
+            }
         }
-        &_text {
+        &__text {
             @extend %font-project-descr;
             font-size: 18px;
             line-height: 29px;
         }
-        &_header_head {
+        .work__head {
             font-size: 18px;
             line-height: 25px;
             @extend %font-project-head;
@@ -166,21 +188,26 @@ header {
             }
         }
     }
-    &__works_cities_city_link {
+    .cities__city_link {
         @extend %font-project-head;
         color: rgba(255, 255, 255, 0.3);
         &:hover {
             color: #E3B873;
         }
     }
-    &__online_text {
+}
+
+.online {
+    &__text {
         @extend %font-project-head;
         font-size: 20px;
         line-height: 28px;
         color: #FFFFFF;
+        h2 {
+            font-size: 20px;
+            line-height: 28px;   
+        }
     }
-}
-.repairs {
     &__descr {
         &_text {
             @extend %font-project-descr;
@@ -188,42 +215,45 @@ header {
             font-size: 20px;
             line-height: 34px;
         }
-        &_inputs {
-            input {
+    }
+    &__form {
+        input {
+            @extend %font-project-descr;
+            color: #363636;
+            font-size: 18px;
+            line-height: 24px;
+        }
+        input::placeholder {
+            @extend %font-project-descr;
+            color: #363636;
+            font-size: 18px;
+            line-height: 24px;  
+        }
+        &_label {
+            @extend %font-project-descr;
+            color: rgba(54, 54, 54, 0.5);
+        }
+        &_button_submit {
+            font-family: "FuturaDemiC";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 26px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+        &_agree {
+            label {
                 @extend %font-project-descr;
-                color: #363636;
-                font-size: 18px;
-                line-height: 24px;
-            }
-            input::placeholder {
-                @extend %font-project-descr;
-                color: #363636;
-                font-size: 18px;
-                line-height: 24px;  
-            }
-            &_label {
-                @extend %font-project-descr;
-                color: rgba(54, 54, 54, 0.5);
-            }
-            &_button_submit {
-                font-family: "FuturaDemiC";
-                font-style: normal;
-                font-weight: 600;
-                font-size: 15px;
-                line-height: 26px;
-                text-transform: uppercase;
-                color: #FFFFFF;
-            }
-            &_agree {
-                label {
-                    @extend %font-project-descr;
-                    font-size: 16px;
-                    line-height: 22px;
-                    color: #181818;
-                }
+                font-size: 16px;
+                line-height: 22px;
+                color: #181818;
             }
         }
     }
+}
+
+.repairs {
     &__types {
         &_text {
             @extend %font-project-head;
@@ -254,7 +284,27 @@ header {
             }
         }
     }
-    &__request_form {
+}
+
+.request {
+    .stages__stage {
+        &_num {
+            font-family: "Yeseva One";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 25px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+        &_text {  
+            font-family: "FuturaMediumC";
+            font-size: 18px;
+            line-height: 21px;
+            color: #363636;
+        }
+    }
+    &__form {
         &_blank {
             &_head {
                 font-family: "FuturaDemiC";
@@ -264,26 +314,6 @@ header {
                 line-height: 25px;
                 text-align: center;
                 color: #FFFFFF;
-            }
-            &_inputs {
-                &_label {
-                    @extend %font-project-descr;
-                    color: rgba(255, 255, 255, 0.5);
-                    &-agree {
-                        @extend %font-project-descr;
-                        font-size: 16px;
-                        line-height: 22px;
-                    }
-                }
-                &_button_submit {
-                    font-family: "FuturaDemiC";
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 13px;
-                    line-height: 18px;
-                    text-transform: uppercase;
-                    color: #FFFFFF;
-                }
             }
             input {
                 font-family: "FuturaMediumC";
@@ -310,7 +340,28 @@ header {
             }
         }
     }
+    &__inputs {
+        &_label {
+            @extend %font-project-descr;
+            color: rgba(255, 255, 255, 0.5);
+            &-agree {
+                @extend %font-project-descr;
+                font-size: 16px;
+                line-height: 22px;
+            }
+        }
+        &_button_submit {
+            font-family: "FuturaDemiC";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 13px;
+            line-height: 18px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+    }
 }
+
 .styles__container {
     &_list {
         &_head {
@@ -326,6 +377,7 @@ header {
         }
     }
 }
+
 .design-project {
     &__descr {
         &_text {
@@ -374,6 +426,7 @@ header {
         }
     }
 }
+
 .steps {
     &__container {
         &_descr {
@@ -427,49 +480,50 @@ header {
             }
         }
     }
-    .team {
-        &__types {
-            &_text {
-                @extend %font-project-head;
-                font-size: 20px;
-                line-height: 28px;
-                color: #FFFFFF;
-            }
-            &_container_descr {
-                @extend %font-project-descr;
-                font-size: 20px;
-                line-height: 27px;
-                text-align: center;
-            }
+}
+
+.team {
+    &__types {
+        &_text {
+            @extend %font-project-head;
+            font-size: 20px;
+            line-height: 28px;
+            color: #FFFFFF;
         }
-        &__members_container_block_person {
-            &_descr {
-                &_name {
-                    @extend %font-project-head;
-                    font-size: 18px;
-                    line-height: 25px;
-                    color: #181818;
-                }
-                &_pos {
-                    @extend %font-project-descr;
-                    font-size: 18px;
-                    line-height: 26px;
-                    color: #959595;
-                }
-            }
-            &_exp {
-                @extend %font-project-head;
-                font-size: 13px;
-                line-height: 20px;
-                color: #FFFFFF;
-            }
-        }
-        &__descr_text {
+        &_container_descr {
             @extend %font-project-descr;
             font-size: 20px;
-            line-height: 34px;
-            color: #363636;
+            line-height: 27px;
+            text-align: center;
         }
+    }
+    .persons {
+        &__descr {
+            &_name {
+                @extend %font-project-head;
+                font-size: 18px;
+                line-height: 25px;
+                color: #181818;
+            }
+            &_pos {
+                @extend %font-project-descr;
+                font-size: 18px;
+                line-height: 26px;
+                color: #959595;
+            }
+        }
+        &__exp {
+            @extend %font-project-head;
+            font-size: 13px;
+            line-height: 20px;
+            color: #FFFFFF;
+        }
+    }
+    &__descr_text {
+        @extend %font-project-descr;
+        font-size: 20px;
+        line-height: 34px;
+        color: #363636;
     }
 }
 
@@ -517,39 +571,40 @@ header {
             color: #FFFFFF;
         }
         &__inputs {
-                &_label {
+            &_label {
+                @extend %font-project-descr;
+                color: rgba(255, 255, 255, 0.5);
+                &_agree {
                     @extend %font-project-descr;
-                    color: rgba(255, 255, 255, 0.5);
-                    &_agree {
-                        @extend %font-project-descr;
-                        font-size: 16px;
-                        line-height: 22px;
-                    }
-                }
-                &_button_submit {
-                    font-family: "FuturaDemiC";
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 13px;
-                    line-height: 18px;
-                    text-transform: uppercase;
-                    color: #FFFFFF;
+                    font-size: 16px;
+                    line-height: 22px;
                 }
             }
-            input {
-                font-family: "FuturaMediumC";
-                font-size: 18px;
-                line-height: 25px;
-                color: #FFFFFF
+            &_button_submit {
+                font-family: "FuturaDemiC";
+                font-style: normal;
+                font-weight: 600;
+                font-size: 13px;
+                line-height: 18px;
+                text-transform: uppercase;
+                color: #FFFFFF;
             }
-            input::placeholder {
-                font-family: "FuturaMediumC";
-                font-size: 18px;
-                line-height: 25px;
-                color: #FFFFFF
-            }
+        }
+        input {
+            font-family: "FuturaMediumC";
+            font-size: 18px;
+            line-height: 25px;
+            color: #FFFFFF
+        }
+        input::placeholder {
+            font-family: "FuturaMediumC";
+            font-size: 18px;
+            line-height: 25px;
+            color: #FFFFFF
+        }
     }
 }
+
 .address__container_info_descr {
     font-family: "YesevaOne";
     font-style: normal;
@@ -558,4 +613,176 @@ header {
     line-height: 28px;
     text-transform: uppercase;
     color: #E3B873;
+}
+
+@media screen and (max-width: 375px) {
+    .nav {
+        .logo__text {
+            font-size: 12px;
+            line-height: 14px;
+            font-weight: 600;
+        }
+        .nav__menu-tel_tel {
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 14px;
+            color: #FFFFFF;
+        }
+    }
+
+    .description {
+        &__repair {
+            & h2 {
+                font-size: 23px;
+                line-height: 132.83%;
+            }
+        }
+        &__cost {
+            font-size: 18px;
+            line-height: 135.84%;
+        }
+    }
+
+    .projects {
+        .completed {
+            &__par h2 {
+                font-size: 22px;
+                line-height: 138.6%;
+                text-align: center;
+            }
+            &__text {
+                font-size: 14px;
+                line-height: 158.48%;
+                text-align: center;
+            }
+            .work__head {
+                font-size: 14px;
+                line-height: 138.6%;
+            }
+        }
+    }
+
+    .online {
+        &__text {
+            width: 200px !important;
+            h2 {
+                font-size: 22px;
+                line-height: 138.6%;
+            }
+        }
+        &__descr_text {
+            padding-left: 18px;
+            padding-right: 18px;
+            font-size: 14px;
+            line-height: 169.8%;
+            color: #FFFFFF;
+        }
+        &__form {
+            input {
+                color: #FFFFFF !important;
+                font-size: 18px;
+                line-height: 24px;
+            }
+            input::placeholder {
+                font-size: 18px;
+                line-height: 138.72%;
+                color: #FFFFFF !important;
+            }
+            &_label {
+                font-size: 15px;
+                line-height: 20px;
+                color: rgba(255, 255, 255, 0.5);
+            }
+            &_agree-mob_label {
+                font-family: "FuturaBookC";
+                font-size: 16px;
+                line-height: 22px;
+                color: #FFFFFF;
+            }
+        }
+    }
+
+    .repairs {
+        &__types {
+            &_text {
+                font-size: 22px;
+                line-height: 138.6%;
+            }
+        }
+        li {
+            font-size: 13px;
+            line-height: 22.07px;
+        }
+    }
+
+    .styles__container {
+        &_list_head {
+            text-align: center;
+        }
+    }
+
+    .design-project {
+        &__types {
+            &_text {
+                color: #FFFFFF;
+                font-size: 22px;
+                line-height: 138.6%;
+            }
+            &_container_descr {
+                text-align: center;
+                margin-left: 55px;
+                margin-right: 55px;
+                font-size: 15px;
+                line-height: 135.84%;
+                color: #FFFFFF;
+            }
+        }
+        &-mob__types_designs_name {
+            &_img_head {
+                &_container {
+                    font-family: "YesevaOne";
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 15px;
+                    line-height: 138.6%;
+                    color: #363636;
+                }
+                ul {
+                    font-family: "FuturaBookC";
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 13px;
+                    line-height: 169.8%;
+                    color: #959595;
+                }
+            }
+            &_price {
+                font-family: "YesevaOne";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 15px;
+                line-height: 21px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+            }
+        }
+    }
+
+    .team {
+        &__types {
+            &_text {
+                font-size: 22px;
+                line-height: 138.6%;
+            }
+            &_container_descr {
+                font-size: 15px;
+                line-height: 135.84%;
+            }
+        }
+    }
+
+    .address__container_info_descr {
+        font-size: 18px;
+        line-height: 138.6%;
+    }
 }
