@@ -1155,6 +1155,120 @@ footer {
     display: none;
 }
 
+@media only screen and (min-width: 1025px) and (max-width: 1439px) {
+    .description {
+        width: auto !important;
+    }
+    .scroll-down, 
+    .des-sec,
+    .cities,
+    .completed__slider,
+    .request__form,
+    .request__form_save {
+        display: none !important;
+    }
+    .request {
+        justify-content: center;
+    }
+    .projects__works_designs_slider {
+        right: 10%;
+        left: auto;
+    }
+    .des-fir {
+        width: 100%;
+        max-width: 680px;
+        min-width: 560px;
+    }
+    .repairs__types_designs {
+        margin-left: 0;
+        margin-right: 0;
+        &_name {
+            width: 100%;
+            max-width: 330px;
+            img {
+                width: 100%;
+            }
+            &_img_head {
+                left: 0;
+            }
+        }
+    }
+    .design-project__types {
+        &_designs {
+            margin-left: 0;
+            margin-right: 0;
+            &_name {
+                width: 100%;
+                max-width: 330px;
+                img {
+                    width: 100%;
+                }
+                &_img_head {
+                    left: 0;
+                }
+            }
+        }
+    }
+    .steps__container_works_step:not(:nth-child(3n)) {
+        margin: 0;
+    }
+    .steps {
+        &__container {
+            &_works {
+                width: 100%;
+                &_step {
+                    margin-right: 10% !important;
+                }
+            }
+        }
+        img {
+            width: 100%;
+        }
+    }
+    .styles {
+        height: auto;
+        &__container {
+            &_list {
+                margin: 0;
+                margin-right: 5%;
+            }
+        }
+        &__images {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            max-height: 785px;
+            img {
+                align-self: center;
+                width: 49%;
+            }
+            &_sample {
+                &:nth-child(1), &:nth-child(3) {
+                    margin: 0;
+                }
+                &:nth-child(3) {
+                    bottom: 14vh;
+                }
+                &:nth-child(2) {
+                    bottom: 30vh;
+                }
+            }
+        }
+    }
+    nav {
+        margin: 0 20px;
+    }
+    .team__members {
+        margin: 80px 5% 0px 5%;
+    }
+    .clients__reviews {
+        margin: 0;
+        &_container {
+            padding: 24px 23px 0px 20px;
+        }
+    }
+}
+
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
     .nav {
         margin: 0 30px;
@@ -1179,6 +1293,21 @@ footer {
         &_price {
             position: absolute;
             bottom: -20px;
+        }
+    }
+    .styles__container_list {
+        max-width: 300px !important;
+        &_button {
+            display: block !important;
+            img {
+                width: 100%;
+            }
+        }
+        &-mob {
+            width: 50%;
+            img {
+                width: 100%;
+            }
         }
     }
 }
@@ -1209,12 +1338,6 @@ footer {
             &-button {
                 display: none;
             }
-        }
-    }
-    .styles__container_list {
-        margin-bottom: 20px;
-        &_head {
-            margin-top: 0;
         }
     }
     .main-upper .description__repair {
@@ -1253,6 +1376,10 @@ footer {
                 }
             }
         }
+    }
+    .ask-wrapper {
+        padding: 0 20px;
+        box-sizing: border-box;
     }
     .map-mob {
         display: block;
@@ -1332,13 +1459,13 @@ footer {
                 }
                 &_slider {
                     &-left, &-right {
-                        top: 170vh;
+                        top: 100%;
                     }
                     &-left {
                         left: 20vw;
                     }
                     &-right {
-                        right: 20vw;
+                        left: 75vw;
                     }
                 }
             }
@@ -1430,9 +1557,50 @@ footer {
     .styles {
         margin: 0;
         height: auto;
+        &__container {
+            flex-wrap: wrap;
+            margin: 0;
+            justify-content: center;
+            padding: 0 5%;
+            align-items: center;
+            &_list {
+                width: 100%;
+                justify-content: center;
+                margin: 0;
+                max-width: 768px;
+                margin-bottom: 20px;
+                &_button {
+                    display: none;
+                }
+                &_img {
+                    display: block;
+                    margin-top: 30px;
+                    margin-left: 18px;
+                    width: 335px;
+                    &-right, &-left {
+                        position: relative;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 36px;
+                        height: 36px;
+                        background: #E3B873;
+                        border-radius: 50%;
+                        box-shadow: 0px 0px 15px rgba(227, 184, 115, 0.5);
+                    }
+                    &-right {
+                        right: 15%;
+                    }
+                    &-left {
+                        left: 15%;
+                    }
+                }
+            }
+        }
     }
     .team {
         &__members {
+            margin: 80px 25% 0 25%;
             flex-wrap: wrap;
             justify-content: center;
         }
@@ -1693,11 +1861,11 @@ footer {
                         box-shadow: 0px 0px 15px rgba(227, 184, 115, 0.5);
                     }
                     &-right {
-                        top: 4425px;
+                        top: 4235px;
                         left: 305px;
                     }
                     &-left {
-                        top: 4425px;
+                        top: 4235px;
                         left: 35px;
                     }
                 }
