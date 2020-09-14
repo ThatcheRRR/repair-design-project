@@ -262,13 +262,11 @@ header {
             color: #181818;
         }
         &_designs_name {
-            &_img {
-                &_head {
-                    font-family: "YesevaOne";
-                    font-size: 18px;
-                    line-height: 25px;
-                    color: #363636;
-                }
+            &_head {
+                font-family: "YesevaOne";
+                font-size: 18px;
+                line-height: 25px;
+                color: #363636;
             }
             &_price {
                 @extend %font-project-head;
@@ -394,7 +392,6 @@ header {
             line-height: 27px;
             text-align: center;
             color: #363636;
-            
         }
         &_text {
             @extend %font-project-head;
@@ -403,26 +400,24 @@ header {
             color: #181818;
         }
         &_designs_name {
-            &_img {
-                &_head {
-                    font-family: "YesevaOne";
-                    font-size: 18px;
-                    line-height: 25px;
-                    color: #363636;
-                }
-            }
             &_price {
                 @extend %font-project-head;
                 font-size: 18px;
                 line-height: 25px;
                 color: #FFFFFF;
             }
-            li {
-                @extend %font-project-descr;
+            &_head {
+                font-family: "YesevaOne";
+                font-size: 18px;
                 line-height: 25px;
-                color: #959595;
-                list-style-position: inside;
+                color: #363636;
             }
+        }
+        li {
+            @extend %font-project-descr;
+            line-height: 25px;
+            color: #959595;
+            list-style-position: inside;
         }
     }
 }
@@ -461,7 +456,7 @@ header {
                 }
             }
         }
-        &_works_step_link {
+        &_works_steps_step {
             &_page {
                 font-family: "YesevaOne";
                 font-style: normal;
@@ -469,14 +464,12 @@ header {
                 font-size: 15px;
                 line-height: 21px;
                 text-transform: uppercase;
-                color: rgba(255, 255, 255, 0.3);
                 border-bottom: 1px solid #E3B873;
             }
             &_descr {
                 font-family: "FuturaBookC";
                 font-size: 15px;
                 line-height: 18px;
-                color: rgba(255, 255, 255, 0.3);
             }
         }
     }

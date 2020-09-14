@@ -137,11 +137,11 @@ nav {
             }
         }
     }
-    &_works_step {
+    &_works_steps_step {
+        color: rgba(255, 255, 255, 0.3);
         &:hover {
-            .steps__container_works_step_link_page, .steps__container_works_step_link_descr {
-                color: #fff;
-            }
+            color: #fff;
+            cursor: pointer;
         }
     }
 }
